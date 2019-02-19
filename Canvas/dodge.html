@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>dodge</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <ul id="purchase">
+      <li id="lifebutton" onclick="increaseLives()">+Life - 500</li>
+      <li id="speedbutton" onclick="increasePlayerSpeed()">+Speed - 200</li>
+      <li id="shieldbutton" onclick="increaseShieldMeter()">+Shield - 150</li>
+      <li id="multiplybutton" onclick="increaseScoreMultiplier()">+Score Multiplier - 400</li>
+      <li onclick="newGame()">NEW GAME</li>
+    </ul>
+    <ul id="info">
+      <li>Z to shield</li>
+      <li>X to pause</li>
+      <li>Buy while paused</li>
+      <li>Buying costs score</li>
+    </ul>
+    <!-- game starts when canvas has loaded -->
+    <script type="text/javascript" src="js/gamelogic.js"></script>
+    <!-- ADD PRE GAME SCREEN - DONE
+    ADD POST GAME SCREEN - DONE
+    ADD SCOREBOARD - DONE
+    FIX CSS PROBLEMS - DONE
+    UPDATE SCOREBOARD - DONE
+    ONLY ONE USER ENTRY - DONE
+    NEW GAME BUTTON - DONE
+    -->
+
+    <h1 id="x">Scoreboard</h1>
+    <ul id="scoreboard">
+    </ul>
+  </body>
+</html>

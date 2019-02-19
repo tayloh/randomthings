@@ -1,0 +1,79 @@
+body{background-color: #121413; position: relative;}
+canvas {background: #3b3f3d; display: block; margin: 0 auto}
+
+#purchase{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  min-width: 30%;
+  max-width: 70%;
+}
+#purchase li{
+  float:left;
+  padding: 15px;
+  margin: 5px;
+  color: #eee;
+  background: rgba(0, 149, 221, 0.4);
+}
+#purchase li:hover{
+  background: rgba(0, 149, 221, 0.8);
+  cursor: pointer;
+}
+
+#scoreboard{
+  position: absolute;
+  list-style: none;
+  top: 8%;
+  right: 1%;
+  color: #eee;
+  font-size: 50%;
+  max-width: 250px;
+}
+
+#scoreboard li{
+  position:static;
+  font-size: 250%;
+}
+
+#x{
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  font-size: 200%;
+  color: #eee;
+}
+
+#username{
+  font-size: 200%;
+  background: rgba(10, 10, 10, 1);
+  color: #eee;
+  border: none;
+  text-align: center;
+  top: 40%;
+  left: 35%;
+  position: absolute;
+}
+
+#save{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  padding: 15px;
+  background: rgba(0, 149, 221, 1);
+  color: #eee;
+}
+
+#save:hover{
+  cursor:pointer;
+  background: lightgreen;
+}
+
+#info{
+  color: white;
+  font-size: 200%;
+  display: block;
+  position: absolute;
+  top: 5%;
+}
